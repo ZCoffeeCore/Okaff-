@@ -1,8 +1,15 @@
 -> Raiz
+    npm i -g @nestjs/cli
+    nest new backend
     npm install concurrently --save-dev
+    npx create-next-app@latest frontend --typescript --app
 
 -> Backend
+    cd backend
     npm install @nestjs/mongoose mongoose
     npm install @nestjs/config
     npm install mongodb
 
+-> Frontend
+    cd frontend
+    npm install axios
