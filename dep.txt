@@ -1,0 +1,8 @@
+-> Raiz
+    npm install concurrently --save-dev
+
+-> Backend
+    npm install @nestjs/mongoose mongoose
+    npm install @nestjs/config
+    npm install mongodb
+
